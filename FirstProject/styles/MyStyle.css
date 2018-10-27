@@ -1,6 +1,40 @@
+.logoStyle{
+    margin: 10px 70px 20px;
+    font-size: 20px;
+    font-weight: bold;    
+}
+.textStyle{
+    margin: 10px 20px;
+}
+.h1Style{
+    color: indigo;
+    margin: 30px 70px;
+}
+.divStyle{
+    margin: 20px 50px;
+    background: lavender;
+    width: 1025px;
+}
 .imageStyle{
     object-fit: cover;
-    width: 200px;
     height: 200px;
-
+    width: 200px;    
+}
+.commentStyle{
+    height: 250px;
+    width: 1025px;
+    display: inline-block;
+    background: lavender;    
+    margin: 10px;
+    
+}
+.commentPhotoStyle{
+    float: left;
+    width: 200px;
+    padding: 25px;
+}
+.commentCommentStyle{
+    /*float: left;*/
+    width: 970px;  
+    padding: 50px;         
 }
