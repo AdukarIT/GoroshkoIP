@@ -1,4 +1,23 @@
+.sizeCol{
+    height: 150px;
+    weight: 200px;
+
+}
+.zvStyle{
+    height: 30px;
+    weight: 30px
+
+}
+.imageStyle{
+    height: 100px;
+    weight: 100px
+}
 .logoStyle{
     margin: 0px;
-    
+    color: rgb(77, 0, 112);
+
+}
+.divStyle{
+    margin: 20px 10px 20px 50px;
+
 }
