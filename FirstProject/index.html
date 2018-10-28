@@ -2,9 +2,9 @@
 <html>
 
 <head>
+	<meta charset="UTF-8">
 	<title>сервис ремонта мобильных телефонов</title>
-	<link rel="stylesheet" href="styles/MyStyle.css">
-	
+	<link rel="stylesheet" href="styles/MyStyle.css">	
 </head>
 
 
@@ -19,48 +19,69 @@
 			<a href="#mobile" class="logoStyle">УСТРОЙСТВА</a>
 			<a href="comments.html#comment" class="logoStyle">ОТЗЫВЫ</a>
 			<a href="#contacts" class="logoStyle">СВЯЗАТЬСЯ С НАМИ</a>
-		</nav>
-		
+		</nav>		
 	</header>
 
 	<main>
-		<h3 id="service">Наши услуги</h3>
-		<nav>
+		<h1 id="service" class="h1Style">Наши услуги</h1>
+		<nav class="divStyle">
 			<ul>
 				<li>замена экрана</li>
 				<li>замена динамиков</li>
 				<li>замена корпуса</li>
-				<a href="data/PriseList.xlsx"><i>цены на наши услуги</i></a>
+				<a href="data/PriseList.xlsx" target="_blank"><i>цены на наши услуги</i></a>
 			</ul>
 		</nav>
-		<h3 id="mobile">Устройства, которые мы ремонтируем</h3><br>
-		<div style="float: left; width: 100px; height: 100px;" class="iphone">
-			<img src="images/iphone.jpg">
-			<p>iphone</p>
-		</div>
-		<div style="float: left; width: 100px; height: 100px;" class="samsung">
-			<img src="images/samsung.jpg">
-			<p>samsung</p>
-		</div>
-		<div style="float: left; width: 100px; height: 100px;" class="huawei">
-			<img src="images/huawei.jpg">
-			<p>huawei</p>
-		</div>
-		<div class="xiaomi">
-			<img src="images/xiaomi.jpg">
-			<p>xiaomi</p>
-		</div>
-		<br>
-		<h3 id="contacts">Связаться с нами</h3>
-		<div>
-			<p>Время работы: пн-сб 8:00-20:00</p>
-			<p>г.Минск, ул.Громова, 49</p>
-			<p>+375(29)8204545 (МТС)</p>
-			<p>+375(29)3204545 (Velcom)</p>
-		</div>
-
+		<h1 id="mobile" class="h1Style">Устройства, которые мы ремонтируем</h1><br>
+		<div class="divStyle">
+			<div class="divMobileStyle">
+				<img src="images/iphone.jpg">
+				<p>iphone</p>
+			</div>
+			<div class="divMobileStyle">
+				<img src="images/samsung.jpg">
+				<p>samsung</p>
+			</div>
+			<div class="divMobileStyle">
+				<img src="images/huawei.jpg">
+				<p>huawei</p>
+			</div>
+			<div class="divMobileStyle">
+				<img src="images/xiaomi.jpg">
+				<p>xiaomi</p>
+			</div>
+			<div class="divMobileStyle">
+					<img src="images/lenovo.jpg">
+					<p>lenovo</p>
+			</div>
+			<div class="divMobileStyle">
+					<img src="images/htc.jpg">
+					<p>htc</p>
+			</div>
+			<div class="divMobileStyle">
+					<img src="images/lg.jpg">
+					<p>lg</p>
+			</div>
+			<div class="divMobileStyle">
+					<img src="images/nokia.jpg">
+					<p>nokia</p>
+			</div>
+			<div class="divMobileStyle">
+					<img src="images/sony.jpg">
+					<p>sony</p>
+			</div>
+		</div>		
 	</main>
 	<footer>
+		<div >
+			<h1 id="contacts" class="h1Style">Связаться с нами</h1>
+				<div class="divStyle">
+					<p class="textStyle"><b>Время работы:</b>  пн - сб.  8:00 - 20:00</p>
+					<p class="textStyle"><b>Наш адрес: </b> г. Минск, ул. Громова, 49</p>
+					<p class="textStyle">+375(29)820-45-45 (МТС) <br>
+					+375(29)320-45-45 (Velcom)</p>		  
+				</div>
+		</div>
 	</footer>
 
 </body>
