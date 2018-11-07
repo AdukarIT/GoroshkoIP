@@ -1,32 +1,32 @@
-.divMobileStyle{
+.MobileWrapper{
     display: inline-block;
     width: 100px;
     height: 100px;
     margin: 30px 50px 40px 20px;
 }
-.logoStyle{
+.logoWrapper{
     margin: 10px 70px 20px;
     font-size: 20px;
     font-weight: bold;    
 }
-.textStyle{
+.textWrapper{
     margin: 10px 20px;
 }
-.h1Style{
+.h1Wrapper{
     color: indigo;
     margin: 30px 70px;
 }
-.divStyle{
+.Wrapper{
     margin: 20px 50px;
     background: lavender;
     width: 1025px;
 }
-.imageStyle{
+.imageWrapper{
     object-fit: cover;
     height: 200px;
     width: 200px;    
 }
-.commentStyle{
+.commentWrapper{
     height: 250px;
     width: 1025px;
     display: inline-block;
@@ -34,12 +34,12 @@
     margin: 10px;
     
 }
-.commentPhotoStyle{
+.commentPhotoWrapper{
     float: left;
     width: 200px;
     padding: 25px;
 }
-.commentCommentStyle{
+.commentCommentWrapper{
     /*float: left;*/
     width: 970px;  
     padding: 50px;             

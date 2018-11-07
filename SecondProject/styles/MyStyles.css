@@ -1,23 +1,21 @@
 .sizeCol{
-    height: 150px;
-    weight: 200px;
-
+    height: 150px;    
 }
-.zvStyle{
+.zvWrapper{
     height: 30px;
     weight: 30px
 
 }
-.imageStyle{
+.imageWrapper{
     height: 100px;
     weight: 100px
 }
-.logoStyle{
+.logoWrapper{
     margin: 0px;
     color: rgb(77, 0, 112);
 
 }
-.divStyle{
+.Wrapper{
     margin: 20px 10px 20px 50px;
 
 }

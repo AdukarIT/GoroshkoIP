@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">    
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="logoWrapper" src="images/logo.png" alt="Instagram">
+            <img class="logoNoteWrapper" src="images/inst_logo.png" alt="Instagram">
+        </div>
+    </header>
+    <main>
+        <div>
+            <form class="form1Wrapper" action="feed.html">
+                <div class="div1FormWrapper">
+                    <p class="pWrapper"><b>АВТОРИЗАЦИЯ</b></p>
+                </div>
+                <div class="div2FormWrapper">
+                    <input class="input1Wrapper" type="email" id="email" name="email" placeholder="email" title="Введите ваш email"
+                        required>
+                    <input class="input2Wrapper" type="password" id="Password0" name="Password" placeholder="Пароль"
+                        title="Введите пароль" maxlength="25" required>
+                    <button class="button1Wrapper" type="submit">Войти</button>
+                </div>
+            </form>
+        </div>
+        <div>
+            <form class="form2Wrapper" id="commentform" name="comment" method="post" action="feed.html" target="_blank">
+                <!--# - ссылка на начало текущего базового документа-->
+                <div class="div1FormWrapper">
+                    <p class="pWrapper"><b>РЕГИСТРАЦИЯ</b></p>
+                </div>
+                <p class="note">
+                    <span><i>*</i></span><i>Поля со звездочкой обязательны для заполнения</i>
+                </p>
+                <div class="row">
+                    <label for="name">Ваше имя<span>*</span></label>
+                    <input type="text" class="txt" id="name" name="name"  placeholder="Логин" title="Введите Логин "
+                        required>
+                </div>
+                <div class="row">
+                    <label for="name">Ваш email<span>*</span></label>
+                    <input type="email" class="txt" id="emailreg" name="emailreg"  placeholder="email" title="Введите email "
+                        required>
+                </div>
+                <div class="row">
+                    <label for="password1">Пароль<span>*</span></label>
+                    <input type="password" class="txt" id="password1" name="password1"  placeholder="******"
+                        title="Введите пароль" maxlength="25" required>
+                </div>
+                <div class="row">
+                    <label for="password2">Подтверждение пароля<span>*</span></label>
+                    <input type="password" class="txt" id="password2" name="password2" placeholder="******"
+                        title="Подтвердите пароль" maxlength="25" required  >
+                </div>
+                <div class="checkboxWrapper row">
+                    <input type="checkbox"  id="checkbox" name="checkbox"  required>Согласен(-сна) с порядком обработки персональных данных
+                </div>
+                <div class="button2Wrapper">
+                    <button type="reset" >Очистить</button>
+                </div>
+                <div class="button2Wrapper">
+                    <button type="submit" >Отправить</button>
+                </div>
+
+            </form>
+
+        </div>
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>

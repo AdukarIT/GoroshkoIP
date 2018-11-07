@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="logoWrapper" src="images/logo.png" alt="Instagram">
+            <img class="logoNoteWrapper" src="images/inst_logo.png" alt="Instagram">
+        </div>
+    </header>
+
+    <main>
+        <div class="marginBox">
+            <a href="feed.html">Новости</a>
+        </div>
+        <div class="marginBox">
+            <form class="form2Wrapper" id="commentform" name="comment" method="post" action="feed.html" target="_blank">
+
+                <div class="div1FormWrapper">
+                    <p class="pWrapper"><b>СОЗДАТЬ ПОСТ</b></p>
+                </div>
+                <div class="row">
+                    <br>
+                    <label for="message">Текст поста, хештеги</label>
+                    <textarea class="txt" id="message" name="message" tabindex="1" placeholder="Это то, что я хочу вам написать. #mynews"
+                        title="Создайте пост" rows="5"></textarea>
+                </div>
+                <div class="row">
+                    <label for="file">Добавление файла</label>
+                    <input class="txt" type="file" id="file" name="file" tabindex="2" title="Выберите файл">
+                </div>
+
+                <div class="centreButton">
+                    <button type="submit" tabindex="3">Опубликовать</button>
+                </div>
+
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

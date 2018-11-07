@@ -1,0 +1,144 @@
+.logoWrapper{
+    width: 50px;
+    height: 50px;
+    font-family:'Courier New', Courier, monospace;
+}
+.logoNoteWrapper{
+    height: 50px;
+} 
+.form1Wrapper{
+    height: 220px; 
+    width: 300px;  
+    margin-left: auto;
+    margin-right: auto;  
+    outline: 2px solid #000;            
+}  
+.div1FormWrapper{
+    background-color: rgb(45, 51, 51);
+    height: 55px;                
+}         
+.pWrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: rgb(247, 242, 235);
+    height: 55px;
+    text-align: center;
+    vertical-align: middle;                
+}
+.pWrapper:before { /* для IE8+ */
+    content: "";
+    display: inline-block;
+    min-height: inherit;
+    height: 100%;
+    vertical-align: middle;
+}            
+.div2FormWrapper{
+    background-color: rgb(61, 71, 71);
+    height: 165px;
+    
+}
+.input1Wrapper{
+    width: 200px;
+    height: 30px;
+    margin: 20px 50px 3px 50px;               
+}
+.input2Wrapper{
+    width: 200px;
+    height: 30px;
+    margin: 3px 50px 15px 50px;               
+}
+.button1Wrapper{
+    width: 80px;
+    height: 25px;
+    margin: 3px 110px 20px 110px;
+}
+
+.form2Wrapper{
+    width: 500px;  
+    height: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    outline: 2px solid #000; 
+}
+.row{            
+    padding: 7px 8px;                          
+    }    
+.row:hover   /*псевдокласс*/
+    {    
+    background: #f1f7fa;
+    }
+.note{
+    font-size: 0.8em;                       
+    padding: 2px 7px;
+    margin-bottom: 10px;
+    }
+span{
+    color: #ca5354;
+    }
+input:focus, textarea:focus /*псевдокласс*/
+    {
+    outline: 0.2px solid #666;
+    }           
+
+label{
+    height: 10px;  
+    width: 150px;          
+    display: inline-block; /*блочный элемент, который обтекается другими элементами веб-страницы подобно встроенному элементу.  */
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;            
+    padding: 6px 0;  /*поля вокруг содержимого блока*/
+    color: #464646;
+    vertical-align: top;/*Выравнивание верхнего края элемента по верху самого высокого элемента строки*/
+    }
+.txt {
+    display: inline-block;
+    padding: 8px 9px;
+    padding-right: 30px;
+    width: 240px;   
+    font-family: 'Oxygen', sans-serif;        
+    font-size: 0.8em;
+    font-weight: normal;
+    color: #898989;
+    }
+.button2Wrapper{
+    display: inline-block;
+    width: 90px;
+    margin-left: 100px;
+    margin-top: 20px;                
+}
+.checkboxWrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;   
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;             
+}
+.sizePhotoList{
+    width: 30%;
+    height: 30%;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+.marginBox{
+    margin-top: 50px;    
+    margin-left: 50px;
+}
+.centreButton{
+    width: 20%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.sizeVideoWrapper{
+    width: 40%;
+    height: 50%; 
+    /* frameBorder: 0; */
+    /* width: 720; 
+    height: 405; 
+    mozallowfullscreen
+    allowfullscreen
+    webkitAllowFullScreen  allowfullscreen*/
+}

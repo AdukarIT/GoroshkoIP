@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <style>
+        .row{            
+            padding: 7px 8px;           
+            }    
+        .row:hover   /*псевдокласс*/
+            {    
+            background: #f1f7fa;
+            }
+        .note{
+            font-size: 0.8em;                       
+            padding: 2px 7px;
+            margin-bottom: 10px;
+            }
+        span{
+            color: #ca5354;
+            }
+        input:focus, textarea:focus /*псевдокласс*/
+            {
+            outline: 0.2px solid #666;
+            }           
+    
+        label{
+            height: 10px;  
+            width: 150px;          
+            display: inline-block; /*блочный элемент, который обтекается другими элементами веб-страницы подобно встроенному элементу.  */
+            font-size: 1em;
+            font-weight: bold;            
+            padding: 6px 0;  /*поля вокруг содержимого блока*/
+            color: #464646;
+            vertical-align: top;/*Выравнивание верхнего края элемента по верху самого высокого элемента строки*/
+            }
+        .txt {
+            display: inline-block;
+            padding: 8px 9px;
+            padding-right: 30px;
+            width: 240px;   
+            font-family: 'Oxygen', sans-serif;        
+            font-size: 1em;
+            font-weight: normal;
+            color: #898989;
+            }
+        .buttonWrapper{
+            display: inline-block;
+            width: 90px;
+            margin: 15px 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Оставьте отзыв:)</h1>
+        <form id="commentform" name="comment" method="post" action="#" target="_blank">
+            <!--# - ссылка на начало текущего базового документа-->
+            <p class="note">
+                <span><i>*</i></span><i>Поля со звездочкой обязательны для заполнения</i>
+            </p>
+            <div class="row">
+                <label for="name">Ваше имя<span>*</span></label>
+                <input type="text" class="txt" id="name" name="name" tabindex="1" placeholder="Стивен Хогрид" title="Введите Ваше имя "
+                    required>
+            </div>
+            <div class="row">
+                <label for="message">Ваш отзыв<span>*</span></label>
+                <textarea class="txt" id="message" name="message" tabindex="2" placeholder="Все супер" title="Оставьте Ваш отзыв"
+                    rows="5" required></textarea>
+            </div>
+            <div class="row">
+                <label for="vkcom">Ссылка на вашу соц.сеть</label>
+                <input class="txt" type="url" id="vkcom" name="vkcom" tabindex="3" placeholder="//vk.com/stiven_hogrid"
+                    title="Вставьте ссылку на вашу соц сеть">
+            </div>
+            <div class="buttonWrapper">
+                <button type="reset" tabindex="4">Очистить</button>
+            </div>
+            <div class="buttonWrapper">
+                <button type="submit" tabindex="5">Отправить</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
