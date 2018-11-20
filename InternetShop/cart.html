@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+
+<body class="size-site">
+    <header>
+        <div class="logowrapper">
+            <img src="images/webshop.jpg" class="logo__size-images">
+        </div>
+    </header>
+    <main>
+        <div class="menu-wrapper">
+            <div class="submenu">
+                <p class="submenu__text">БЫТОВАЯ ТЕХНИКА</p>
+                <ul class="submenu__item">
+                    <li>Стиральные машины</li>
+                    <li>Пылесосы</li>
+                    <li>Швейные, вышивальные машины</li>
+                    <li>Утюги</li>
+                    <li>Электровеники</li>
+                    <li>Сушилки для обуви</li>
+                </ul>
+            </div>
+            <div class="submenu">
+                <p class="submenu__text">ТЕХНИКА ДЛЯ КУХНИ</p>
+                <ul class="submenu__item">
+                    <li>Холодильники</li>
+                    <li>Кухонные плиты</li>
+                    <li>Морозильники</li>
+                    <li>Настольоные плиты</li>
+                    <li>Ростеры, мини-печи</li>
+                    <li>Вытяжки</li>
+                    <li>Микроволновые печи</li>
+                </ul>
+            </div>
+            <div class="submenu">
+                <p class="submenu__text">КОМПЬЮТЕРНАЯ ТЕХНИКА</p>
+                <ul class="submenu__item">
+                    <li>Ноутбуки</li>
+                    <li>Планшеты</li>
+                    <li>Компьютеры, моноблоки</li>
+                    <li>Игровые приставки</li>
+                    <li>Серверное оборудование</li>
+                </ul>
+            </div>
+            <div class="submenu">
+                <p class="submenu__text">КОРЗИНА</p>
+            </div>
+        </div>
+
+        <p class="form__title">ОФОРМИТЬ ЗАКАЗ</p>
+        <div>
+            <form class="form-wrapper" id="commentform" name="comment" method="post" action="#" target="_blank">
+
+                <div class="row">
+                    <label class="label__note" for="name">ФАМИЛИЯ, ИМЯ<span>*</span></label>
+                    <input type="text" class="txt" id="name" name="name" title="Введите Ваше имя " required>
+                </div>
+                <div class="row">
+                    <label class="label__note" for="phone">ТЕЛЕФОН<span>*</span></label>
+                    <input type="tel" class="txt" id="phone" name="phone" title="Номер телефона" required>
+                </div>
+                <div class="row">
+                    <label class="label__note" for="email">ЭЛЕКТРОННАЯ ПОЧТА<span>*</span></label>
+                    <input type="email" class="txt" id="email" name="email" title="Электронная почта" required>
+                </div>
+                <div class="row">
+                    <label class="label__note" for="email">СПОСОБ ДОСТАВКИ<span>*</span></label>
+
+                    <div class="txt">
+                        <div>
+                            <label for="transportation" class="form__shipping">
+                                <input type="checkbox" id="transportation" unchecked >Самовывоз со склада по адресу: г.Минск,
+                                ул.Алибегова, 23
+
+                                <iframe class="form__shipping__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2352.378107044098!2d27.4681270158583!3d53.87170568009244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbda9a7ab40b49%3A0x815a3158f940e352!2z0YPQu9C40YbQsCDQkNC70LjQsdC10LPQvtCy0LAgMjMsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1542673051498"
+                                    width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </label>
+                        </div>
+                        <div>
+                            <label for="transport" class="form__shipping__by-youself">
+                                <input type="checkbox" id="transport">Курьером по Минску
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row form__shipping-address">
+                    <label class="label__note" for="address">АДРЕС ДОСТАВКИ<span>*</span></label>
+                    <input type="text" class="txt" id="address" name="address" title="Адрес доставки" required>
+                </div>
+                <div class="row">
+                    <label class="label__note" for="message">КОММЕНТАРИЙ<span>*</span></label>
+                    <textarea class="txt" id="message" name="message" title="Оставьте комментарий" rows="5" required></textarea>
+                </div>
+                <div class="block-centralalign">
+                    <label for="conditions">
+                        <input type="checkbox" id="conditions" name="conditions">Я прочел(-ла) условия доставки и
+                        согласен(-на) с ними
+                    </label>
+                </div>
+
+                <div class="buttonWrapper">
+                    <button type="submit">Подтвердить заказ</button>
+                </div>
+
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="contacts">
+            <div>
+                <p class="contacts__text">ВРЕМЯ РАБОТЫ: Пн-Вс 9:00-18:00;</p>
+                <p class="contacts__text">АДРЕС: г.Минск,ул.Алибегова, 23</p>
+                <p class="contacts__text">ТЕЛЕФОН: 80297335412, 80331235412</p>
+                <p class="contacts__text">СКАЙП: <img class="skype-wrapper" src="images/skype.png" alt="skype"><a href="skype:petrovna_irin_ka">petrovna_irin_ka</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
