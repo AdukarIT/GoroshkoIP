@@ -79,11 +79,11 @@ input:focus, textarea:focus /*псевдокласс*/
 .label__note{
     height: 15px;  
     width: 200px;          
-    display: inline-block; /*блочный элемент, который обтекается другими элементами веб-страницы подобно встроенному элементу.  */
+    display: inline-block; 
     font-size: 0.9em;             
-    padding: 10px 20px;  /*поля вокруг содержимого блока*/
+    padding: 10px 20px;  
     color: #0f1d5c;
-    vertical-align: top;/*Выравнивание верхнего края элемента по верху самого высокого элемента строки*/
+    vertical-align: top;
     }
 .txt {
     display: inline-block;
@@ -91,43 +91,58 @@ input:focus, textarea:focus /*псевдокласс*/
     padding-right: 30px;
     width: 250px;   
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;        
-    font-size: 1em;    
-    color: #0f1d5c;
+    font-size: 1em;      
     }
-.buttonWrapper{    
-    width: 110px; 
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-}
 .block-centralalign{
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    margin-bottom: 20px;
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 400px;
+        margin-bottom: 20px;  
+         
+    }
+.button-wrapper{    
+    width: 200px; 
+    margin-left: 100px;   
+    margin-top: 15px;
+    margin-bottom: 20px;    
 }
+.button-wrapper-appearance{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(145, 179, 202);        
+    /* pointer-events: none; */
+}
+/* .checkbox-conditions :checked~.button-wrapper-appearance {
+    color:rgb(21, 21, 114);    
+    pointer-events: auto; */
+
+}
+
 .form__shipping{
     position: relative;
 }
-.form__shipping :checked~.form__shipping__map {
-    display: inline-block;
-}
 
-.form__shipping__map [type="checkbox"] {
+.form__shipping__map  {
     position: absolute;
     display: none;
+}
+.form__shipping :checked~.form__shipping__map {
+    display: inline-block; 
 }
 .form__shipping__by-youself{
 
 }
- .form__shipping__by-youself :checked~.form__shipping-address {
-    display: block;
-  }
-.form__shipping-address [type="checkbox"] {
+ 
+.form__shipping-address  {
     display: none;
+    margin: 0px;
+    padding: 0px;
 }
+.form__shipping__by-youself :checked~.form__shipping-address {
+    display: inline-block;
+  }
 .contacts{
-    background-color: rgb(167, 167, 252);
+    background-color: rgb(116, 192, 243);    
     margin-top: 30px;
     margin-left: 0px;    
     padding-top: 20px;
