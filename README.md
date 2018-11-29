@@ -14,4 +14,4 @@
 https://github.com/AdukarIT/GoroshkoIP/tree/master/InternetShop
 
 
-http://jsfiddle.net/otfyLd9k/
+http://jsfiddle.net/otfyLd9k/1/
