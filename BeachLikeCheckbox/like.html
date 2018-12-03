@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        @font-face {
+            font-family: 'fontello';
+            src: url('./font/fontello.eot');
+            src: url('./font/fontello.eot') format('embedded-opentype'),
+                url('./font/fontello.woff') format('woff2'),
+                url('./font/fontello.woff') format('woff'),
+                url('./font/fontello.ttf') format('truetype'),
+                url('./font/fontello.svg') format('svg');
+            font-weight: normal;
+            font-style: normal;            
+        }
+
+         [class^="icon-"]:before {
+            font-family: "fontello";
+            font-style: normal;
+            font-weight: normal;
+            color:darkslategray;
+            /* speak: none;  */
+
+            display: inline-block;
+            text-decoration: inherit;
+            width: 1em;
+            /* margin-right: .2em; */
+            text-align: center;
+            /* margin-left: 320px;
+            margin-top: 50px; */
+        }  
+
+        .icon-heart:before {
+            content: '\e800';
+        }
+        .icon-heart:hover:before {
+            color:rgb(29, 29, 170);
+        }        
+       
+        input {
+             display: none;
+        }           
+        
+        .like-box[type="checkbox"]:checked .icon-heart{
+            color:rgb(236, 46, 46);
+            background-color: aqua;
+            
+        }
+        .like::selection {
+            color:rgb(236, 46, 46);
+            background-color: aqua;
+        }  
+        .icon-heart::selection {
+            color:rgb(236, 46, 46);
+            background-color: aqua;
+        }  
+
+    </style>
+
+</head>
+
+<body>
+    <main>  
+
+        <div class="like">          
+            <div class="icon-heart"> 
+            </div>    
+        </div>   
+
+
+        <label for="box" class="like-box">
+            <input type="checkbox" id="box">            
+            <div class="icon-heart"></div>
+        </label>
+
+    </main>
+</body>
+
+</html>

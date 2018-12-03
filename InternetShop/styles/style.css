@@ -116,7 +116,7 @@ input:focus, textarea:focus /*псевдокласс*/
     color:rgb(21, 21, 114);    
     pointer-events: auto; */
 
-}
+
 
 .form__shipping{
     position: relative;
