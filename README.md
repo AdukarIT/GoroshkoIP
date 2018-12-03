@@ -12,3 +12,7 @@
 ДЗ по уроку 8. Основы CSS. Позиционирование.
 Форма заказа в интернет-магазине.
 https://github.com/AdukarIT/GoroshkoIP/tree/master/InternetShop
+
+
+http://jsfiddle.net/otfyLd9k/3/
+http://jsfiddle.net/o9mvtfyw/
