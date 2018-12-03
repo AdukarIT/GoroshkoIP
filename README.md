@@ -15,4 +15,5 @@ https://github.com/AdukarIT/GoroshkoIP/tree/master/InternetShop
 
 
 http://jsfiddle.net/otfyLd9k/3/
-http://jsfiddle.net/o9mvtfyw/
+
+http://jsfiddle.net/o9mvtfyw//7/
