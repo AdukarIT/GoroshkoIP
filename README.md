@@ -14,7 +14,7 @@
 https://github.com/AdukarIT/GoroshkoIP/tree/master/InternetShop
 
 
-http://jsfiddle.net/otfyLd9k/3/
-
-http://jsfiddle.net/o9mvtfyw/7/
-http://jsfiddle.net/ug3v6x4r/
+Практические задания на занятиях:
+картинки-ссылки с onliner: http://jsfiddle.net/otfyLd9k/5/
+меню:  http://jsfiddle.net/6vwy1uLs/2/
+transition на иконке: https://github.com/AdukarIT/GoroshkoIP/tree/master/IconThumbsUp
