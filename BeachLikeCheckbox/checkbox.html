@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        @font-face {
+            font-family: 'fontello';
+            src: url('./font/font/fontello.eot?51398738');
+            src: url('./font/font/fontello.eot?51398738#iefix') format('embedded-opentype'),
+                url('./font/font/fontello.woff2?51398738') format('woff2'),
+                url('./font/font/fontello.woff?51398738') format('woff'),
+                url('./font/font/fontello.ttf?51398738') format('truetype'),
+                url('./font/font/fontello.svg?51398738#fontello') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        [class^="icon-"]:before,
+        [class*=" icon-"]:before {
+            font-family: "fontello";
+            font-style: normal;
+            font-weight: normal;
+            speak: none;
+
+            display: inline-block;
+            text-decoration: inherit;
+            width: 1em;
+            margin-right: .2em;
+            text-align: center;
+
+            /* font-variant: normal;
+  text-transform: none; */
+            /* line-height: 1em; */
+            /* margin-left: .2em; */
+
+        }
+
+        .icon-ok-circled:before {
+            content: '\e800';
+        }        
+        .icon-ok-circled2:before {
+            content: '\e801';
+        }
+        input{
+            display: none;
+        }
+        .unchecked-icon{
+            position: absolute;            
+        } 
+        .checked-icon{
+            position: absolute;            
+            display: none;  
+        }                    
+        .input-unchecked-icon:checked~ .unchecked-icon{
+            display: none;
+        }
+        .input-unchecked-icon:checked~ .checked-icon{
+            display: block;
+        }           
+        
+    </style>
+</head>
+<main>
+    <div>
+        <label for="unchecked-icon" class="label-unchecked-icon">
+            <input type="checkbox" id="unchecked-icon" class="input-unchecked-icon">
+            <div class="icon-ok-circled2 unchecked-icon"></div>
+            <div class="icon-ok-circled checked-icon"></div>
+        </label>
+    </div>
+
+</main>
+
+</html>

@@ -21,16 +21,14 @@
             font-family: "fontello";
             font-style: normal;
             font-weight: normal;
-            color:darkslategray;
-            /* speak: none;  */
+            color:darkslategray;           
 
             display: inline-block;
             text-decoration: inherit;
-            width: 1em;
-            /* margin-right: .2em; */
+            width: 1em;           
             text-align: center;
-            /* margin-left: 320px;
-            margin-top: 50px; */
+            margin-left: 200px;
+            margin-top: 50px; 
         }  
 
         .icon-heart:before {
@@ -38,26 +36,17 @@
         }
         .icon-heart:hover:before {
             color:rgb(29, 29, 170);
-        }        
-       
+        }       
         input {
              display: none;
-        }           
-        
-        .like-box[type="checkbox"]:checked .icon-heart{
-            color:rgb(236, 46, 46);
-            background-color: aqua;
-            
+        }            
+        .checkbox:checked~ .icon-heart:before{
+            color:rgb(236, 46, 46);           
         }
-        .like::selection {
-            color:rgb(236, 46, 46);
-            background-color: aqua;
-        }  
-        .icon-heart::selection {
-            color:rgb(236, 46, 46);
-            background-color: aqua;
-        }  
-
+        .checkbox:checked~ .icon-heart:hover:before{
+            color:rgba(236, 46, 46, .3);           
+        }
+        
     </style>
 
 </head>
@@ -65,14 +54,8 @@
 <body>
     <main>  
 
-        <div class="like">          
-            <div class="icon-heart"> 
-            </div>    
-        </div>   
-
-
-        <label for="box" class="like-box">
-            <input type="checkbox" id="box">            
+        <label for="box" class="like">
+            <input type="checkbox" id="box" class="checkbox">            
             <div class="icon-heart"></div>
         </label>
 
