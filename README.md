@@ -18,3 +18,7 @@ https://github.com/AdukarIT/GoroshkoIP/tree/master/InternetShop
 картинки-ссылки с onliner: http://jsfiddle.net/otfyLd9k/5/
 меню:  http://jsfiddle.net/6vwy1uLs/2/
 transition на иконке: https://github.com/AdukarIT/GoroshkoIP/tree/master/IconThumbsUp
+
+ДЗ по уроку 10; по теме "CSS. Стилистическое оформление элементов" (Практика 5).
+Пляж, Лайк, Чекбокс, Header магазина.
+https://github.com/AdukarIT/GoroshkoIP/tree/master/BeachLikeCheckbox
