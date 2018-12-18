@@ -1,0 +1,55 @@
+.ball {
+    border: 2px solid rgb(54, 54, 56);
+    height: 250px;
+    width: 50%;
+    margin-left: 25%;
+    position: relative;
+}
+
+.ball .soccer-ball {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 0px;
+    bottom:0px;
+}
+.checkbox:checked~ .soccer-ball{
+    left: calc(100% - 80px);
+    transition: left 1s ease-out .4s;
+}
+input{
+    display: none;
+}
+.propeller{
+    border: 2px solid rgb(54, 54, 56);
+    height: 150px;
+    width: 16%;
+    margin-top: 20px;
+    margin-left: 42%;
+    position: relative;
+}
+.propeller .propeller__image{
+    height: 90px;
+    width: 90px;     
+    position: absolute;     
+    margin: 30px calc(50% - 45px);    
+    transform: rotate(-1080deg);  /* 360*3 */
+    transition: transform 2s ease-out 0s;
+}
+.propeller__image:hover{
+    transform: rotate(1080deg);  /* 360*3 */
+    transition: transform 2s ease-out .3s;
+}
+.sprite{
+    width: 66px;
+    height: 135px;
+    margin-left: calc(50% - 33px);
+    margin-top: 20px;
+    position: relative;
+    border: 2px solid rgb(54, 54, 56);
+    background-image: url(http://www.mpbox.ru/assets/images/without-flash/gamedev/sheet.jpg); 
+}
+.sprite:hover{
+    background-position: -396px 0px;  /*66*6*/
+    transition: background-position-x .3s steps(6) 0.3s;
+}
