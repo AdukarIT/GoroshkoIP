@@ -22,3 +22,6 @@ transition на иконке: https://github.com/AdukarIT/GoroshkoIP/tree/master
 ДЗ по уроку 10; по теме "CSS. Стилистическое оформление элементов" (Практика 5).
 Пляж, Лайк, Чекбокс, Header магазина.
 https://github.com/AdukarIT/GoroshkoIP/tree/master/BeachLikeCheckbox
+
+ДЗ по анимации:
+https://github.com/AdukarIT/GoroshkoIP/tree/master/animation
