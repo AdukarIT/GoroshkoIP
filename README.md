@@ -26,5 +26,8 @@ https://github.com/AdukarIT/GoroshkoIP/tree/master/BeachLikeCheckbox
 ДЗ по анимации:
 https://github.com/AdukarIT/GoroshkoIP/tree/master/animation
 
+ДЗ по scss DesignClub:
+https://github.com/AdukarIT/GoroshkoIP/tree/master/scss
+
 
 Практика: http://jsfiddle.net/aq9Laaew/295469/;   https://jsfiddle.net/
