@@ -1,0 +1,28 @@
+.first-element{
+    margin: 1.8em 0 1.8em 2em;
+    animation: showLeft 1s both;
+    
+    }
+    
+    .left{
+        background: url(http://designclub.by/img/BG_elem_left.png) no-repeat;
+        width: 255px;
+        height: 250px;
+        margin-bottom: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        i{
+            @include left-i();
+        }
+        h3{
+            @include left-h3();
+        }
+        p{
+            @include left-p();
+        }
+    }
+    
+    

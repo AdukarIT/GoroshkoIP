@@ -1,0 +1,152 @@
+@media screen and (max-width : 1000px) {
+    
+    .container{
+
+        .second-element{
+        
+            .middle__image {
+                width: 45em;
+                padding-top: 7em;
+            }  
+        
+        
+            .middle__title-start {
+                font-size: 10.8em;
+                padding-top: .1em;
+            }
+        
+            .middle__title-finish {
+                font-size: 6.1em;
+                letter-spacing: 1.48em;
+                margin-right: .2em;
+            }
+        
+            .middle__text {
+                padding: 1em 1% 0 2%; 
+                font-size: 1em;
+                width: 95%;
+            }
+        
+            .middle__button{
+                margin-top: 2em;
+                padding-top: 50px;
+                width: 11em;
+                height: 170px;
+                font-size: 3.5em;
+                transition: ease-out 1s; 
+            }
+
+            .middle__social {               
+                position: relative;
+                width: 800px;
+                height: 240px;          
+                
+                .middle__social__position{
+                    pointer-events: none;
+                    position: absolute;            
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    
+                    &:hover .social__item{
+                        margin-top: 1em;  
+                        font-size: 1.2em;                      
+                        transition: ease-in-out 0.5s;
+                    }
+
+                    .social__item{           
+                        margin-top: .7em;                   
+                        font-size: 1.2em;
+                        letter-spacing: 8px;  
+                        pointer-events: auto;
+                        transition: ease-in-out 0.5s;
+
+                        &:hover {                    
+                                color: #646464;                    
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+	
+	.mobile {
+		margin-top: 5em;	
+	
+        .band {           
+
+            .band__left{
+                margin-bottom: 5em;
+                width: 70%;
+
+                .band__left__text{
+                    top: -20px;
+                    right: 40px;  
+                    width: 400px;
+                    height: 15em;                    
+                    text-align: center;                  
+
+                    i{
+                        font-size: 7em;
+                        position: absolute;                        
+                        left: -120px;
+                        top: 0.65em;                     
+                    }
+
+                    h3{                       
+                        font-size: 3em;                        
+                    }
+
+                    p {
+                        margin: 0px;
+                        font-size: 1.8em;
+                        line-height: 30px;                        
+                    }
+                }
+            }
+
+            .band__right{                
+                margin-bottom: 5em;
+                width: 70%;
+                margin-left: 30%;
+
+                .band__right__text{
+                    top: -30px;
+                    left: 40px; 
+                    width: 450px;
+                    text-align: center; 
+
+                    i {
+                        font-size: 7em;
+                        position: absolute;                                                                      
+                        right: -140px;
+                        top: 0.85em;
+                    }
+
+                    h3{
+                        font-size: 3em;		                
+                    }
+
+                    p {
+                        margin: 0px;
+                        font-size: 1.8em;
+                        line-height: 30px;    
+                    }
+                }
+            }
+            .button {
+                margin: 2em 20%;
+                padding-top: 50px;
+                width: 11em;
+                height: 180px;
+                font-size: 3.5em;
+            }
+        }	
+    }
+	
+	
+	
+	
+}
+

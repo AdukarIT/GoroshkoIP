@@ -1,0 +1,23 @@
+body{
+    color: #646464;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300px;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+   
+    .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    width: 93%;
+    margin: 2% 3%;
+    background: linear-gradient(to bottom left, #e8e8eb, #f5f6f6);
+    border-radius: 2em;
+    border: 1px solid #e0e0e0;
+    box-shadow: -7px 7px 25px 0px rgba(0,0,0,0.37);
+    
+        
+    }

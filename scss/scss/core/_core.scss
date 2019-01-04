@@ -1,0 +1,57 @@
+@import "_reset";
+@import "_fonts";
+
+@mixin left-i(){
+    position: absolute;
+    top: 1.2em;
+    left: 3.42em;
+    font-size: 2em;
+    transition: ease-out 1s;
+}
+@mixin left-h3(){
+    margin: .8em 0 .8em -.8em;
+    font-weight: 400;
+    font-size: 1.25em;
+    color: #383838;
+    transition: ease-out 1s;
+}
+@mixin left-p(){
+    margin: 0;
+    margin-left: -1.5em;
+    width: 13.3em;
+    font-size: .9em;
+    text-align: center;
+    transition: ease-out 1s;
+}
+@keyframes showLeft{
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+    
+}
+
+@keyframes show{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes showRight{
+    0% {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+        }
+}
