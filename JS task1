@@ -1,0 +1,16 @@
+1) " " + 1 + 0 = " 10" (typeof string);
+2) " " -1 + 0 = -1 (typeof number);
+3) true + false = 1 (typeof number);
+4) 6 / "3" = 2 (typeof number);
+5) "2" * "3" = 6 (typeof number);
+6) 4 + 5 + "px" = "9px" (typeof string);
+7) "$" + 4 + 5 = "$45" (typeof string);
+8)"4" - 2 = 2 (typeof number);
+9) "4px" - 2 = NaN (typeof number);
+10) 7/0 = Infinity (typeof number);
+11) " -9\n"+5 = " -9 (typeof string);
+                 5"
+12) " -9\n"-5 = -14 (typeof number);
+13) null+1 = 1 (typeof number);
+14) undefined+1 = NaN (typeof number);
+15) null=="\n0\n" = false (typeof boolean);
