@@ -31,3 +31,5 @@ https://github.com/AdukarIT/GoroshkoIP/tree/master/scss
 
 
 Практика: http://jsfiddle.net/aq9Laaew/295469/;   https://jsfiddle.net/
+
+ДЗ 2 по JS: https://github.com/AdukarIT/GoroshkoIP/tree/master/JS-if-switch-while-for
