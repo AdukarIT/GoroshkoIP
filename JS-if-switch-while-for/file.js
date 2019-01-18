@@ -117,7 +117,7 @@ for (let i = 0; i <= 7; i++) {
     }
     console.log(str);
     if (!(i % 2))
-        str = " #";
-    else
         str = "#";
+    else
+        str = " #";
 } */
