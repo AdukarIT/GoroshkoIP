@@ -35,3 +35,5 @@ https://github.com/AdukarIT/GoroshkoIP/tree/master/scss
 ДЗ 1 по JS: https://github.com/AdukarIT/GoroshkoIP/blob/master/JS%20task1
 
 ДЗ 2 по JS: https://github.com/AdukarIT/GoroshkoIP/tree/master/JS-if-switch-while-for
+
+ДЗ 3 по JS: https://github.com/AdukarIT/GoroshkoIP/tree/master/JS-functions
