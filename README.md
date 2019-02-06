@@ -40,4 +40,6 @@ https://github.com/AdukarIT/GoroshkoIP/tree/master/scss
 
 ДЗ 4 по JS: https://github.com/AdukarIT/GoroshkoIP/tree/master/JS-debugging-code
 
+ДЗ 5 по JS: https://github.com/AdukarIT/GoroshkoIP/tree/master/JS-arrays
+
 ДЗ 6 по JS: https://github.com/AdukarIT/GoroshkoIP/tree/master/JS-objects
