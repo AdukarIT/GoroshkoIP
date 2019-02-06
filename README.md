@@ -39,3 +39,5 @@ https://github.com/AdukarIT/GoroshkoIP/tree/master/scss
 ДЗ 3 по JS: https://github.com/AdukarIT/GoroshkoIP/tree/master/JS-functions
 
 ДЗ 4 по JS: https://github.com/AdukarIT/GoroshkoIP/tree/master/JS-debugging-code
+
+ДЗ 6 по JS: https://github.com/AdukarIT/GoroshkoIP/tree/master/JS-objects
