@@ -43,3 +43,5 @@ https://github.com/AdukarIT/GoroshkoIP/tree/master/scss
 ДЗ 5 по JS: https://github.com/AdukarIT/GoroshkoIP/tree/master/JS-arrays
 
 ДЗ 6 по JS: https://github.com/AdukarIT/GoroshkoIP/tree/master/JS-objects
+
+ДЗ 7 по JS: https://github.com/AdukarIT/GoroshkoIP/tree/master/JS-built-in%20capabilities
