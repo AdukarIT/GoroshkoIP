@@ -47,3 +47,5 @@ https://github.com/AdukarIT/GoroshkoIP/tree/master/scss
 ДЗ 7 по JS: https://github.com/AdukarIT/GoroshkoIP/tree/master/JS-built-in%20capabilities
 
 ДЗ 8 по JS: https://github.com/AdukarIT/GoroshkoIP/tree/master/JS-advanced
+
+ДЗ 9 по JS: https://github.com/AdukarIT/GoroshkoIP/tree/master/DOM
