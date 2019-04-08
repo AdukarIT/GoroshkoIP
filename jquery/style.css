@@ -1,0 +1,57 @@
+body {
+    background: #20262E;
+    padding: 20px;
+    font-family: Helvetica;
+  }
+  
+  .gallery {
+    position: relative;
+    background-color: #000;
+    background-image: url('https://secure.i.telegraph.co.uk/multimedia/archive/03543/Narutos_selfie_344_3543114b.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    min-height: 300px;
+    cursor: pointer;
+  }
+
+  img{
+    display: none;
+  }
+  .prev{
+    position: absolute;
+    left: 0px;
+    top: 50%;     
+  }
+  .next{
+    position: absolute;
+    right: 0px;
+    top: 50%;      
+  }
+  span{
+    color: red;
+  }
+  .label{
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+  }
+
+  .input{
+    width: 200px;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 3px;
+    
+  }
+
+  .green{
+    color: green;
+  }
+  
