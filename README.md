@@ -52,4 +52,6 @@ https://github.com/AdukarIT/GoroshkoIP/tree/master/scss
 
 ДЗ 10 по JS: https://github.com/AdukarIT/GoroshkoIP/tree/master/JS-events-coordinates%20on%20the%20page
 
+ДЗ 11 по формам: https://github.com/AdukarIT/GoroshkoIP/tree/master/JS-forms
+
 ДЗ по jquery: https://github.com/AdukarIT/GoroshkoIP/tree/master/jquery
