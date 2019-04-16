@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="file.js"></script>
+    <link rel='stylesheet' href='style.css'>
+    
+</head>
+
+
+<body>
+    <form id='registration'>
+        <div class='field'>
+            <label for='email'>Введите email</label>
+            <input id='email' class='input' type='email' name='email'><span class='green'></span>
+        </div>
+        <div class='field'>
+            <label for='password'>Введите пароль</label>
+            <input id='password' class='input' type='text' name='password'><span class='green'></span>
+        </div>
+        <div class='field'>
+            <label>Введите пароль</label>
+            <input class='input' type='text' name='password'><span class='green'></span>
+        </div>
+        <input type='submit' value='отправить'>
+    </form>
+    <br>
+    <br>
+    <form id='task1'>Имя:
+        <input type="text" id="name"><span class='green'></span><br>Кол-во пончиков:
+        <input type="text" id="donuts"><br>Минут:
+        <input type="text" id="minutes"><span class='green'></span><br>Подитог:
+        <input type="text" id="poditog"><br>Налог:
+        <input type="text" id="tax"><br>Итог:
+        <input type="text" id="itog"><br>
+        <input type="submit" value="заказать">
+    </form>
+    <br>
+    <br>
+    <form id='task2' method="post" action="mailto:irina.goroshko93@mail.ru" enctype="text/plain">
+        <div class='field'>
+            <label for='message'>Введите сообщение</label>
+            <textarea id='message' class='input' type='text' name='message'></textarea><span class='green'></span>
+        </div>
+        <input type='submit' value='отправить'>
+        <input id='clear' type="button" value='очистить'>
+    </form>
+
+    <br>
+    <br>
+    <form id='registration_task3'>
+        <div class='field'>
+            <label for='name3'>Введите имя</label>
+            <input id='name3' class='input' type='text' name='name'>
+        </div>
+        <div class='field'>
+            <label for='email3'>Введите email</label>
+            <input id='email3' class='input' type='email' name='email'><span class='green'></span>
+        </div>
+        <div class='field'>
+            <label for='message3'>Введите сообщение</label>
+            <textarea id='message3' class='input' type='text' name='message'></textarea>
+        </div>
+        <input type='submit' value='отправить'>
+    </form>
+
+    <br>
+    <br>
+    <p id='str'>Функция в программировании — фрагмент программного кода (подпрограмма), к которому можно обратиться из другого места программы. В большинстве случаев с функцией связывается идентификатор, но многие языки допускают и безымянные функции. С именем функции неразрывно связан адрес первой инструкции (оператора), входящей в функцию, которой передаётся управление при обращении к функции. После выполнения функции управление возвращается обратно в адрес возврата — точку программы, где данная функция была вызвана.</p>
+    <button id='btn_chng'>заменить 'функция' на 'фукция'</button>
+
+</body>
+
+</html>

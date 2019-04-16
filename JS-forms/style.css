@@ -1,0 +1,25 @@
+div.field {
+    padding-bottom: 5px;
+}
+
+div.field label {
+    display: inline-block;
+    width: 150px;
+    height: 15px;
+}
+
+span{
+    color: yellow;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+.light{
+    /* border: 1px solid #F0E68C; */
+    background: #FFFACD	
+}
