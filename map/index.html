@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Google Places JavaScript</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://www.google.com/jsapi"></script>
+    <script
+        src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAx7r-2zF6L8cWJo7CYgLOgfaG6K3tYx8w&libraries=places"></script>
+    <script src="file.js"></script>
+</head>
+
+<body>
+    <div id="container" class="container">
+        <div id="gmap_canvas"></div>
+        <div>
+            <div class="search">
+                <div>
+                    <label for="gmap_address">Адрес:</label>
+                    <input id="gmap_address" type="text" name="gmap_address" />
+                </div>
+
+                <button id="button1" class="button">Найти
+                </button>
+                <br>
+                <br>
+                <div>
+                    <label for="gmap_place">Место:</label>
+                    <select id="gmap_place">
+                        <option value="cafe">Кафе</option>
+                        <option value="shop">Магазин</option>
+                        <option value="hospital">Больница</option>
+                        <option value="bank">Банк</option>
+                        <option value="atm">Банкоматы</option>
+                        <option value="police">Полиция</option>
+                        <option value="art_gallery">Галереи</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="gmap_radius">Радиус:</label>
+                    <select id="gmap_radius">
+                        <option value="500">500</option>
+                        <option value="1000">1000</option>
+                        <option value="1500">1500</option>
+                        <option value="5000">5000</option>
+                    </select>
+                </div>
+                <button id="button2" class="button">Найти
+                </button>
+
+                <input type="hidden" id="lat" name="lat" value="53.9021648" />
+                <input type="hidden" id="lng" name="lng" value="27.5499173" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
