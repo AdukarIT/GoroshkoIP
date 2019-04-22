@@ -54,6 +54,6 @@ https://github.com/AdukarIT/GoroshkoIP/tree/master/scss
 
 ДЗ 11 по формам: https://github.com/AdukarIT/GoroshkoIP/tree/master/JS-forms
 
-ДЗ 12 по ООП: https://github.com/AdukarIT/GoroshkoIP
+ДЗ 12 по ООП: https://github.com/AdukarIT/GoroshkoIP/tree/master/oop
 
 ДЗ по jquery: https://github.com/AdukarIT/GoroshkoIP/tree/master/jquery
