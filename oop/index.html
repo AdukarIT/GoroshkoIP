@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js"></script>
+    <script src="file.js"></script>
+
+
+</head>
+
+<body>
+    <form id="remind-form"><b>Напоминание</b>
+        <div class='field'>
+            <label for='hour' class='label'></label>
+            <input id='hour' name='hour' type="text" maxlength="2"><span class='span'><b>:<b></span>
+            <input id='minute' name='minute' type="text" maxlength="2">
+        </div>
+        <div class='field'>
+            <label for='iser-info' class='label'></label>
+            <textarea id='user-info'></textarea>
+        </div>
+        <input type="submit" id="submit" value="Напомнить">
+    </form>
+
+    <audio id='audio' src="sms.mp3" type='audio/mp3'>
+    </audio>
+
+
+
+
+</body>
+
+</html>

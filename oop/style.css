@@ -1,0 +1,29 @@
+
+/* #audio{
+    display: none;
+} */
+
+#user-info {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+.label {
+    display: block;
+}
+
+#time {
+    width: 70px;
+}
+
+#hour, #minute {
+    width: 18px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+}
+
+.span {
+    margin: 0px;
+    padding: 0px;
+}
