@@ -1,0 +1,22 @@
+.albom{
+    width: 500px;
+    height: 60px;
+    background: rgb(212, 233, 235);
+    border: 1px solid rgb(128, 146, 156);
+    border-radius: 10px;
+    position: relative;
+    margin: 10px;
+    padding-left: 15px;
+}
+
+.image{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 5px;
+    right: 5px;
+}
+
+.none{
+    display: none;
+}
