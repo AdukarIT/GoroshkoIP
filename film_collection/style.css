@@ -1,0 +1,205 @@
+body {
+    background: url('http://elitefon.ru/pic/201302/1366x768/elitefon.ru-35467.jpg') 0% 0 no-repeat #000;
+    margin: 0px;
+    color: #fff;
+    position: relative;
+   
+}
+
+.container {    
+    padding-top: 120px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    min-width: 500px;
+}
+
+.logo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 2em;
+}
+
+.main-box {
+    background: #333;
+    width: 70%;
+    display: grid;
+    grid-template-rows: 100px 100%-100px;
+    min-height: 550px;
+    border-radius: 10px;
+    padding: 30px 30px 70px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80%;
+    min-width: 600px;    
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    padding: 8px;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+.link:hover {
+    color: #a00;
+}
+
+a {
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+.add-film {
+    min-height: 300px;
+    padding: 0 10px 0px 20px;
+    position: relative;
+}
+
+.film-title a {
+    text-decoration: none;
+    /* padding-left: 20px; */
+}
+
+.film-title a:hover {
+    color: #a00;
+}
+
+.film-data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.image-link img:hover {
+    opacity: 0.75;
+}
+
+.note-about-film {
+    padding: 0px;
+    margin: 0px;
+}
+
+.image {
+    height: 200px;
+    width: 400/3px;
+    padding-right: 20px;
+}
+
+.wrapper_btn {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.show-btns {
+    /* position: absolute; */
+}
+
+.control-panel {
+    display: flex;
+    justify-content: space-between;
+    min-height: 80px;
+}
+
+.form-for-add-film {
+    display: block; 
+    position: absolute; 
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  */
+    top: 15%;     
+    left: 30%;
+    right: 30%; 
+    border: 1px solid #000;
+    background-color: rgb(121, 118, 118);
+    z-index: 100;
+}
+.unvis{
+    display: none;
+}
+
+.invisible {
+    display: none;
+}
+
+.inl-blk {
+    display: inline-block;
+}
+
+
+.blk {
+    display: block;
+}
+
+.label {
+    padding: 7px;
+    /* width: 150px; */
+    width: 40%;
+    /* float: left; */
+    display: inline-block;
+}
+.input{
+    display: inline-block;
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+}
+
+*{
+    box-sizing: border-box;
+}
+.container-for-popup-form{
+    position: fixed;
+    background:rgba(0,0,0,0.4);
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+}
+.title-for-form-add-film, .title-for-form-change-film{
+    text-align: center;
+}
+
+.send, .cancel-send, .change{
+    margin: 20px 10px;
+    border-radius: 5px;
+    /* border: none; */
+}
+.send, .change{
+    margin-left: 35%;
+}
+.padding{
+    padding: 4px 10px;
+}
+
+.search-text{
+    padding: 4px;   
+}
+.search-expand{
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    color: #ddd;
+}
+#btn-expand-search:hover, #btn-for-search:hover, #search-reset:hover, #btn-for-appear-form:hover {   
+    opacity: 0.5;
+}
+
+.add-film{
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+#genre, #year, #country, #producer{
+    padding: 3px;
+    margin: 5px 3px 3px 0;
+}
+
+    

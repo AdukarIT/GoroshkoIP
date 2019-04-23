@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="file.js"></script>
+    <script src="films.js"></script>
+    <link rel="stylesheet" href='style.css'>
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+    <script src="simplePagination/jquery.simplePagination.js"></script>
+    <script src="./jquery-validation-1.19.0/dist/jquery.validate.js"></script>
+    <script src="jquery-validation-1.19.0/dist/jquery.validate.min.js"></script>
+    <link rel="stylesheet" href="simplePagination/simplePagination.css" />
+</head>
+
+
+<body>
+    <div class='container'>
+        <div class='logo'>KINOGID</div>
+        <div class='main-box'>
+            <div class='control-panel'>
+                <div>
+                    <form class='search'>
+                        <input class='search-text' name='title' placeholder='поиск...' autocomplete='on'>
+                        <input id='btn-for-search' class='btn-for-search' type='submit' value='&#10004'>
+                    </form>
+                    <form class='form-select-data unvis'>
+                        <select id='genre' name='genre'>
+                            <option value='' class='default' selected='selected'>-жанр-</option>
+                            <option value='1'>боевик</option>
+                            <option value='2'>вестерн</option>
+                            <option value='3'>детектив</option>
+                            <option value='4'>драма</option>
+                            <option value='5'>исторический</option>
+                            <option value='6'>комедия</option>
+                        </select>
+                        <select id='year' name='year'>
+                            <option value='' class='default' selected='selected'>-год-</option>
+                            <option value='2000'>2000</option>
+                            <option value='2003'>2003</option>
+                            <option value='2004'>2004</option>
+                            <option value='2005'>2005</option>
+                            <option value='2009'>2009</option>
+                            <option value='2010'>2010</option>
+                        </select>
+                        <select id='country' name='countryAlpha2Code'>
+                            <option value='' class='default' selected='selected'>-страна-</option>
+                            <option value='us'>США</option>
+                            <option value='gb'>Великобритания</option>
+                            <option value='de'>Германия</option>
+                            <option value='fr'>Франция</option>
+                            <option value='ch'>Швейцария</option>
+                            <option value='es'>Испания</option>
+                        </select>
+                        <select id='producer' name='author'>
+                            <option value='' class='default' selected='selected'>-режиссер-</option>
+                            <option value='Алехандро Аменабар'>Алехандро Аменабар</option>
+                            <option value='Джо Райт'>Джо Райт</option>
+                            <option value='Вольфганг Петерсен'>Вольфганг Петерсен</option>
+                            <option value='Кристоф Барратье'>Кристоф Барратье</option>
+                            <option value='Ридли Скотт'>Ридли Скотт</option>
+                            <option value='Майк Ньюэлл'>Майк Ньюэлл</option>
+                            <option value='Гор Вербински'>Гор Вербински</option>
+                        </select>
+                        <input id='search-reset' type='submit' class='search-reset' value='поиск'>
+                    </form>
+
+                    <div>
+                        <button id='btn-expand-search' class='search-expand'>&#9660;</button>
+                    </div>
+                </div>
+                <div>
+                    <div class='add inl-blk'>
+                        <button id='btn-for-appear-form' class='btn-for-appear-form'>&#10010;</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class='list-of-films'>
+                <div class='list'>
+                    <!-- здесь создаются элементы коллекции -->
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <div class='container-for-popup-form unvis'>
+            <form id='form-for-add-film' class='form-for-add-film' enctype="multipart/form-data">
+
+                <h3 class='title-for-form-add-film'>Новый фильм</h3>
+                <h3 class='title-for-form-change-film unvis'>Изменить фильм</h3>
+
+                <div class="field">
+                    <label class='label'>название</label>
+                    <input name='title' class='input' type='text'>
+                </div>
+
+                <div class="field">
+                    <label for='add-film-country' class='label'>страна</label>
+                    <select id='add-film-country' name='countryAlpha2Code' class='input'>
+                        <option class='default' selected='selected'></option>
+                        <option value='us'>США</option>
+                        <option value='gb'>Великобритания</option>
+                        <option value='de'>Германия</option>
+                        <option value='fr'>Франция</option>
+                        <option value='ch'>Швейцария</option>
+                        <option value='es'>Испания</option>
+                    </select>
+
+                </div>
+
+                <div class="field">
+                    <label for='add-film-year' class='label'>год выхода в прокат</label>
+                    <input id='add-film-year' name='year' class='input' type='text'>
+                </div>
+
+                <div class="field">
+                    <label for='add-film-genre' class='label'>жанр</label>
+                    <select id='add-film-genre' name='genre' class='input'>
+                        <option class='default' selected='selected'></option>
+                        <option value='1'>боевик</option>
+                        <option value='2'>вестерн</option>
+                        <option value='3'>детектив</option>
+                        <option value='4'>драма</option>
+                        <option value='5'>исторический</option>
+                        <option value='6'>комедия</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for='add-film-duration' class='label'>продолжительность</label>
+                    <input id='add-film-duration' name='duration' class='input' type='text'>
+                </div>
+
+                <div class="field">
+                    <label for='add-film-author' class='label'>режиссер</label>
+                    <input id='add-film-author' name='author' class='input' type='text'>
+                </div>
+
+                <div class='field'>
+                    <label for='image' class='label'>постер</label>
+                    <input id='image' type="file" name='image' class="img" accept=".png, .jpg, .jpeg" />
+                    <img id='imagesrc' src="" style="display:none;" />
+                    <!-- <button type="button" class="btn btn-info" ></button> -->
+                </div>
+
+                <div class="field">
+                    <label for='add-film-description' class='label'>описание</label>
+                    <textarea id='add-film-description' name='description' class='input' rows='4'></textarea>
+                </div>
+
+                <input class='send padding' type='submit' value='добавить'>
+                <input class='change padding unvis' type='button' value='изменить'>
+                <input type="button" class='cancel-send padding' onClick='this.form.reset();' value='отменить' />
+            </form>
+        </div>
+
+
+    </div>
+</div>
+
+<div id="dark-pagination" class="pagination"></div>
+
+
+
+</body>
+
+</html>
