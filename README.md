@@ -59,3 +59,5 @@ https://github.com/AdukarIT/GoroshkoIP/tree/master/scss
 ДЗ по jquery: https://github.com/AdukarIT/GoroshkoIP/tree/master/jquery
 
 ДЗ 14 по jquery-plugins: https://github.com/AdukarIT/GoroshkoIP/tree/master/jquery-plugins
+
+ДЗ 15 по jquery ajax: https://github.com/AdukarIT/GoroshkoIP/tree/master/jquery-ajax
