@@ -1,0 +1,117 @@
+html {
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+}
+
+td, th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 15px 30px;
+    box-sizing: border-box;
+}
+
+th {
+    background-color: rgb(235, 235, 235);
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    background-color: rgb(250, 250, 250);
+}
+
+tr:nth-child(odd) td {
+    background-color: rgb(245, 245, 245);
+}
+
+caption {
+    padding: 10px;
+}
+
+/*  */
+
+label {
+    display: block;
+    width: 190px;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+}
+
+select, input {
+    width: 180px;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+}
+
+.field {
+    padding-left: 20px;
+    width: 180px;
+    margin-top: 15px;
+}
+
+/* input.text {
+    margin-bottom: 12px;
+    width: 95%;
+    padding: .4em;
+} */
+
+fieldset {
+    padding: 0;
+    border: 0;
+    margin-top: 25px;
+}
+
+h1 {
+    font-size: 1.2em;
+    margin: .6em 0;
+}
+
+/* iv#users-contain {
+    width: 350px;
+    margin: 20px 0;
+}
+
+div#users-contain table {
+    margin: 1em 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+div#users-contain table td, div#users-contain table th {
+    border: 1px solid #eee;
+    padding: .6em 10px;
+    text-align: left;
+} */
+
+/* .ui-dialog .ui-state-error {
+    padding: .3em;
+}
+
+
+.validateTips {
+    border: 1px solid transparent;
+    padding: 0.3em;
+} */
+.ui-dialog{
+    width: 180px;
+    
+}
+.ui-button{
+    margin-left: 20px;
+}
+.ui-dialog .ui-dialog-buttonpane{
+    padding-right: 50px;
+}
+
+.active{
+    border: 2px solid rgb(194, 199, 151);
+    background-color: rgb(159, 175, 87);
+}

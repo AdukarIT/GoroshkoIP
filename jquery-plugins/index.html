@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel='stylesheet' href='style.css'>
+   <!--  <link rel='stylesheet' href='ui-jquery-plugins.css'> -->
+    <link rel='stylesheet' href='https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+        integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"
+        integrity="sha256-bu/BP02YMudBc96kI7yklc639Mu4iKGUNNcam8D2nLc=" crossorigin="anonymous"></script>
+    <script src="file.js"></script>
+
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>Имя клиента</td>
+            <td>Телефон</td>
+            <td>Дата обращения</td>
+            <td>Тип обращения</td>
+        </tr>
+        <tr class='empty'>
+            <td class='name'></td>
+            <td class='phone'></td>
+            <td class='date'></td>
+            <td class='type'></td>
+        </tr>
+        <tr class='empty'>
+            <td class='name'></td>
+            <td class='phone'></td>
+            <td class='date'></td>
+            <td class='type'></td>
+        </tr>
+        <tr class='empty'>
+            <td class='name'></td>
+            <td class='phone'></td>
+            <td class='date'></td>
+            <td class='type'></td>
+        </tr>
+        <tr class='empty'>
+            <td class='name'></td>
+            <td class='phone'></td>
+            <td class='date'></td>
+            <td class='type'></td>
+        </tr>
+        <tr class='empty'>
+            <td class='name'></td>
+            <td class='phone'></td>
+            <td class='date'></td>
+            <td class='type'></td>
+        </tr>
+
+    </table>
+
+    <div id="dialog" title="обращение">
+        <form id='modal'>
+            <div class='field'>
+                <label for='name'>Имя</label>
+                <input id='name' type='text' name='name'>
+            </div>
+            <div class='field'>
+                <label for='phone'>Телефон</label>
+                <input id='phone' type='tel' name='phone'>
+            </div>
+            <div class='field'>
+                <label for='date'>Дата обращения</label>
+                <input id='date' type='date' name='date'>
+            </div>
+            <div class='field'>
+                <label for='type'>Тип обращения</label>
+                <select id='type' name='type'>
+                    <option value='question'>вопрос</option>
+                    <option value='complaint'>жалоба</option>
+                    <option value='thanks'>благодарность</option>
+                </select>
+            </div>
+    </div>
+
+    <!-- <input type="submit" name="enter" value="Войти" style='display:none'> -->
+    </form>
+    </div>
+    <button id='openButton'>Новое обращение</button>
+
+
+    <div id='dialog_del' title='удаление'>
+        <p>Вы жействительно хотите удалить выбранную(ые) строки?</p>
+    </div>
+    <button id='delete'>удалить</button>
+
+</body>
+
+</html>
