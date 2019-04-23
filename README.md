@@ -57,3 +57,5 @@ https://github.com/AdukarIT/GoroshkoIP/tree/master/scss
 ДЗ 12 по ООП: https://github.com/AdukarIT/GoroshkoIP/tree/master/oop
 
 ДЗ по jquery: https://github.com/AdukarIT/GoroshkoIP/tree/master/jquery
+
+ДЗ 14 по jquery-plugins: https://github.com/AdukarIT/GoroshkoIP/tree/master/jquery-plugins
