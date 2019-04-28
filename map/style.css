@@ -1,57 +1,213 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
-body {    
-    color:#000;
-    font: 12px Arial,sans-serif;
-} 
+
+body {
+    color: #000;
+    font: 12px Arial, sans-serif;
+}
 
 .container {
     display: grid;
-    grid-template-columns: 4fr 1fr;    
-    height: 600px;    
+    grid-template-columns: 5fr 2fr;
+    height: 600px;
 }
 
 .search {
-    background-color: #dee8f3;   
+    background-color: #dee8f3;
     padding: 10px 10px 10px 20px;
-    height: 600px;        
-   
+    height: 600px;
 }
+
 .search label {
     display: block;
     margin: 2px 0 5px 10px;
     text-align: left;
-    
 }
+
 .search input, .search select {
     width: 85%;
     padding: 3px;
+    box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
 }
+
+.wrapper_for_buttons {
+    width: 250px;
+    margin-left: calc(100%/2 - 250px/2);
+}
+
 .button {
-    background-color: #ccdef3;       
-    border: 1px solid #abbbcc;      
-    border-radius: 3px;     
+    background-color: #ccdef3;
+    border: 1px solid #abbbcc;
+    border-radius: 3px;
     padding: 5px;
     text-align: center;
     text-shadow: 0 1px 1px #fff;
     width: 100px;
-    margin: 5px 0 0 60px;
+    margin: 5px 10px;    
     outline: none;
 }
+
 .button:hover {
-    background-color: #ccd9e8;    
-    border: 1px solid #a1afbf;     
+    background-color: #ccd9e8;
+    border: 1px solid #a1afbf;
     box-shadow: inset 0 1px 0 0 #f2f2f2;
-        
 }
+
 .button:active {
-    border: 1px solid #8c98a7;    
+    border: 1px solid #8c98a7;
     box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eeeeee;
 }
 
-.img{
-    width: 20px;
-    height: 20px;
+.field {
+    margin-left: calc(100%/2 - 85%/2);
+}
+
+/* динамически выводимые адреса */
+
+#search_result_address {
+    margin: 20px 10px;
+    overflow: auto;
+    height: calc(100% - 250px);
+}
+
+.info {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.address-name {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.address-name:hover {
+    color: rgb(55, 141, 223);
+}
+
+.address-rating {
+    padding-bottom: 10px;
+}
+
+.address-address {
+    padding-top: 5px;
+}
+
+.address-phone {
+    padding-top: 5px;
+}
+
+.address-opening-hours {
+    padding-top: 5px;
+}
+
+.address-img {    
+   /*  clear: right; */
+    float: right;
+    width: 80px;
+    height: 80px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.address-img:hover {
+    opacity: 0.7;
+}
+
+/* прокрутка */
+
+#search_result_address::-webkit-scrollbar {
+    width: 6px;
+}
+
+#search_result_address::-webkit-scrollbar-thumb {
+    border-width: 1px 1px 1px 2px;
+    border-color: rgb(88, 87, 87);
+    background-color: rgb(119, 119, 119);
+    border-radius: 10px;
+}
+
+#search_result_address::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgb(201, 198, 198);
+}
+
+/* slider ui */
+
+.polzunok-container-3 * {
+    /* position: absolute; */
+    box-sizing: border-box;
+    outline: none;
+}
+
+.polzunok-container-3 {
+    padding: 10px 0;
+    position: absolute;
+    z-index: 5;
+}
+
+.polzunok-container-3 .polzunok-bg-3 {
+    position: absolute;
+    background: #BFE2FF;
+    height: 32px;
+    width: 100%;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.polzunok-container-3 .ui-slider {
+    position: relative;
+    height: 32px;
+    width: calc(100% - 80px);
+    left: 40px;
+}
+
+.polzunok-container-3 .ui-slider b {
+    position: absolute;
+    font-size: 18px;
+    padding: 7px 20px;
+    z-index: 5;
+}
+
+.polzunok-container-3 .ui-slider .ui-slider-handle {
+    position: absolute;
+    margin-left: -40px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    width: 80px;
+    height: 32px;
+    padding-top: 7px;
+    z-index: 3;
+    background: #FFF;
+    font-size: 18px;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.1));
+}
+
+.polzunok-container-3 .ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    height: 32px;
+    display: block;
+    border: 0;
+    background: #337AB7;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.polzunok-container-3 .ui-slider-horizontal .ui-slider-range-min, .polzunok-text-left-3 {
+    left: -40px;
+    color: #FFF;
+}
+
+.polzunok-container-3 .ui-slider-horizontal .ui-slider-range-max, .polzunok-text-right-3 {
+    right: -40px;
+    color: #000;
 }
