@@ -30,7 +30,7 @@ https://github.com/AdukarIT/GoroshkoIP/tree/master/animation
 https://github.com/AdukarIT/GoroshkoIP/tree/master/scss
 
 
-Практика: http://jsfiddle.net/aq9Laaew/295469/;   https://jsfiddle.net/
+Практика: http://jsfiddle.net/aq9Laaew/295469/;  
 
 ДЗ 1 по JS: https://github.com/AdukarIT/GoroshkoIP/blob/master/JS%20task1
 
