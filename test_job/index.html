@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>rest</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+
+    <script src="https://www.google.com/jsapi"></script>
+    <script
+        src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAx7r-2zF6L8cWJo7CYgLOgfaG6K3tYx8w&libraries=places"></script>
+
+    <script src="file.js"></script>
+</head>
+
+<body>
+    <header class='header'>
+    </header>
+
+    <div class='main_box'>
+
+        <div class='menu'>
+            <ul>
+                <li>1 item</li>
+                <li>2 item</li>
+                <li>3 item</li>
+                <li>4 item</li>
+                <li>5 item</li>
+            </ul>            
+        </div>
+
+        <div class='burger_menu none'>
+            <img src='img/Gamburger Menu.svg' class='burger_menu_img'>
+        </div>
+
+        <div class='main'>
+            <div class='box_for_content'>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ornare, dui vitae consectetur
+                    pretium, nisi neque tincidunt tortor, ac consequat erat nisl a augue. Phasellus bibendum volutpat
+                    sem non consectetur. Vestibulum posuere velit eu velit tincidunt bibendum. Nam quis risus sed nisl
+                    pulvinar consectetur. Sed nec malesuada lectus, nec viverra mi. Fusce sit amet lorem vulputate,
+                    laoreet turpis et, consequat dui. Cras augue urna, tempus eu quam sit amet, fermentum sodales
+                    lectus. Quisque ullamcorper, felis a hendrerit fermentum, lectus dolor mattis nunc, tincidunt
+                    ultricies eros nibh vitae arcu. Ut pharetra orci ut congue pretium.<br><br>
+
+                    <div class='float_left'>
+                        <div class='img picture1'></div>
+                    </div>
+
+                    Etiam in dignissim enim. Nam id libero cursus, vehicula lacus lacinia, lobortis sapien. Curabitur
+                    fermentum, mauris in dignissim euismod, tellus arcu consequat lectus, efficitur eleifend dolor nisi
+                    venenatis orci. Morbi sagittis est vitae velit varius feugiat. Nulla eu lacus massa. Aliquam
+                    fringilla malesuada egestas. Phasellus gravida justo lorem, ut placerat nunc condimentum sit amet.
+                    Ut ac enim pretium, mollis nunc nec, bibendum lacus. Quisque tempus sed mi sit amet dictum. Ut enim
+                    tellus, dignissim eget neque a, faucibus consequat sem. Nullam pharetra lectus a tellus faucibus, ut
+                    interdum neque tristique. Fusce dapibus, mi ut sodales interdum, mi enim vulputate erat, in
+                    vestibulum leo libero sed arcu. Nullam congue libero id neque auctor fermentum. Sed felis augue,
+                    facilisis in luctus vitae, pharetra a nisl. Suspendisse sodales leo ligula, sit amet ornare velit
+                    vestibulum et. Proin elementum pulvinar ante, vel dapibus orci malesuada in.<br><br>
+
+                    <div class='float_right'>
+                        <div class='img picture2'></div>
+                    </div>
+
+                    Donec non imperdiet nulla. Sed vulputate ligula vel mi commodo, sit amet pretium magna tristique.
+                    Nullam in velit aliquam, scelerisque purus id, placerat nulla. In consequat diam vitae tristique
+                    sagittis. Proin aliquam, elit elementum cursus ultrices, mi risus ultrices mauris, id tempus erat
+                    leo at tellus. Nullam sed ex vel velit sodales pulvinar ac ac ex. Proin nisi leo, consectetur sit
+                    amet commodo in, viverra nec urna. Nullam venenatis est non dolor condimentum, ac maximus orci
+                    bibendum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                    himenaeos. Morbi dapibus pellentesque ligula, sit amet dignissim dolor tempus consequat. Ut sit amet
+                    purus leo.<br><br>
+
+                    <div class='float_left'>
+                        <div class='img picture3'></div>
+                    </div>
+
+                    Quisque interdum risus et imperdiet aliquet. Nunc semper odio purus, nec suscipit arcu lacinia
+                    interdum. Quisque non viverra sem. Aenean enim purus, hendrerit et mauris in, sagittis lobortis
+                    elit. Sed placerat ultrices est, vitae dignissim neque posuere non. Mauris volutpat quam nec massa
+                    suscipit sagittis. Proin consequat fringilla ligula ut volutpat. Maecenas malesuada, ipsum sit amet
+                    volutpat fringilla, odio lorem varius augue, eu tincidunt est ipsum a eros. <br><br>
+
+                    Nunc id lacinia massa. Aliquam tempor venenatis metus, ac lacinia est ultrices convallis. Proin
+                    faucibus semper ornare. Integer varius nisi metus, ac convallis enim rhoncus non. In accumsan metus
+                    nec aliquet molestie. Ut odio magna, finibus ut nibh convallis, mattis lacinia lorem. Donec varius
+                    molestie dolor non dapibus. In condimentum nec augue id luctus. Phasellus ipsum dolor, maximus ac
+                    metus sit amet, luctus vulputate sem. Suspendisse consequat ipsum sed odio molestie mattis. Nullam
+                    tellus dolor, vehicula ut tristique sodales, aliquam in nisl. Quisque et mi at tellus lobortis
+                    luctus. Etiam vitae odio eget tellus ullamcorper dictum. Vivamus vel nisl a lacus porta faucibus ut
+                    eget risus. Proin aliquet eros imperdiet nunc congue, mollis tristique ipsum placerat. Proin et
+                    magna urna.<br><br>
+                </p>
+                <div id="gmap_canvas"></div>
+            </div>
+            <div class='orange_panel'></div>
+
+        </div>
+
+    </div>
+
+</body>

@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+.header {
+    height: 50px;   
+    background: rgb(101, 113, 190);
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 2;
+}
+
+.main_box {
+    position: relative;   
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.menu {
+    width: 120px;
+    height: 100vh;
+    background: rgb(128, 189, 144);
+    position: fixed;
+    top: 50px;
+    left: 0;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.menu li {
+    display: block;
+    padding: 5px;
+}
+
+.burger_menu {
+    width: 120px;
+    height: 100vh;
+    background: #fff;
+    position: fixed;
+    top: 50px;
+    left: 0;
+}
+
+.burger_menu_img {   
+    width: 20px;
+    height: 20px;   
+    position: absolute;
+    top: 30px;
+    margin-left: calc(50% - 10px);
+    margin-right: calc(50% - 10px);
+}
+
+.main {
+    position: relative;
+    margin-left: 120px;
+    width: calc(100% - 120px);
+    border-left: 1px solid #000;
+}
+
+.box_for_content {   
+    margin-top: 50px;
+    width: calc(10/14 * (100% - 120px));
+    padding: 20px 0 20px 20px;
+}
+
+.orange_panel {
+    background: rgb(199, 140, 12);
+    position: fixed;
+    top: 50px;
+    right: 0px;
+    width: calc(4/14 * 100%);
+    height: 100vh;
+}
+
+.img {
+    width: 110px;
+    height: 110px;
+}
+
+.float_left {
+    float: left;
+    width: 140px;
+    height: 140px;
+    padding: 15px;
+}
+
+.float_right {
+    float: right;
+    width: 140px;
+    height: 140px;
+    padding: 15px;
+}
+
+.picture1 {
+    background: center / contain no-repeat url(https://st2.depositphotos.com/1494134/5964/v/450/depositphotos_59640867-stock-illustration-colored-bubbles-isolated-on-white.jpg);
+}
+
+.picture2 {
+    background: center / contain no-repeat url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtjzRnWp8-3bz03El_sPr9xwHnp1cLg8UzvOu9DueCCdcpmEXV);
+}
+
+.picture3 {
+    background: center / contain no-repeat url(http://fony-kartinki.ru/_ph/113/1/86625014.jpg);
+}
+
+.img_shift_left {
+    margin-left: -60px;
+}
+
+.animate_left {
+    margin-left: 0;
+    transition: margin-left .5s linear;
+}
+
+.img_shift_right {
+    margin-right: -60px;
+}
+
+.animate_right {
+    margin-right: 0;
+    transition: margin-right .5s linear;
+}
+
+.none {
+    display: none;
+}
+
+#gmap_canvas {
+    width: calc(100% + 20px);
+    height: 30vw;
+    margin: 10px -35px -20px -20px;
+}
+
+/* для экрана в 768px */
+
+@media screen and (max-width: 768px) {
+    .menu {       
+        margin-left: -120px;
+    }
+    .menu_animate {
+        display: block;
+        margin-left: 0;
+        transition: margin-left .3s ease-out;
+    }
+    .box_for_content {
+        width: 100%;
+    }
+    .orange_panel {
+        position: relative;
+        margin-left: -120px;
+        width: calc(100% + 120px);
+        height: 30vw;
+        margin-top: -50px;
+        
+    }
+}
