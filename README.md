@@ -65,3 +65,5 @@ https://github.com/AdukarIT/GoroshkoIP/tree/master/scss
 проект (коллекция фильмов): https://github.com/AdukarIT/GoroshkoIP/tree/master/film_collection
 
 проект (гугл-карты): https://github.com/AdukarIT/GoroshkoIP/tree/master/map
+
+тестовое задание:  https://github.com/AdukarIT/GoroshkoIP/tree/master/test_job
